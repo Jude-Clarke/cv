@@ -1,0 +1,31 @@
+h1 {
+	margin-top: 75px;
+}
+img {
+	border-radius: 25px;
+	width: 300px;
+	height: 200px;
+
+}
+.container input[type=checkbox] {
+	display: none;
+}
+
+.container img {
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+}
+input[type=checkbox]:checked ~ label > img {
+	transform: scale(2.5);
+	cursor: zoom-out;
+}
+tr td{
+	padding: 10px;
+}
+table {
+	margin: 20px;
+}
+form {
+	z-index: -1;
+	margin-bottom: 160px;
+}

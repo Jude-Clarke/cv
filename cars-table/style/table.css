@@ -1,0 +1,27 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: red;
+}
+th a {
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 90px;
+}
+th a:hover {
+	background-color: green;
+	color: black;
+}
+hr {
+	margin: 20px 0px 40px 0px;
+}
+hr:last-of-type {
+	margin-bottom: 80px;
+}
+.tbl {
+	text-align: center;
+	border: 2px solid black;
+}
